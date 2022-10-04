@@ -25,8 +25,8 @@ class Home : AppCompatActivity() {
                 .setView(mDialogView)
                 .setTitle("Enter File Name :")
             val mAlertDialog = mBuilder.show()
-            val verificationBtn = mDialogView.findViewById<Button>(R.id.selectFilesButton)
-            val et_code = mDialogView.findViewById<TextInputEditText>(R.id.nameInput)
+            val sendFileButton = mDialogView.findViewById<Button>(R.id.selectFilesButton)
+            val fileName = mDialogView.findViewById<TextInputEditText>(R.id.nameInput)
 
         }
     }
